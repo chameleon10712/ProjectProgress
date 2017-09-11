@@ -1,0 +1,62 @@
+各Project進展說明如下：
+
+
+1. Zenbo機器人對話 (林哲宇)
+
+    已完成新版對話腳本
+
+    因林哲宇他們實驗室大meeting，影片拍攝順延到9/13
+
+
+2. MorSocket APP 開發進度 (陳立寬)
+
+    APP畫面操作流程將會根據老師意見修改
+
+    系統架構圖已畫好，下次將會展示APP與MorSocket使用流程，互相比照。
+
+
+3. MAP 開發進度 (陳薪雅、徐大賢)
+
+    路徑規劃已完成可以迴避路障
+
+    接下來將修改UI介面為符合老師意見的版本
+
+
+4. Machine Learning + IoTtalk (劉淳佑)
+
+    已經可以讓IDF傳送歷史資料到ML_device，建立學習模型
+
+    正在實作device object自動bind正確的ML_device，不須由使用者手動binding
+
+    正在實作自動產生一個default的ML_device，讓使用者連線到ML_device不用設定也可以運作
+
+
+5. IoTtalk 2.0狀態 (顏泰翔、林俊頤)
+
+    已解決ODF接收來自多條IDF連線時，只會運行第一條連線的問題
+
+    繼續使用140.113.199.198進行更多測試
+
+
+6. IoTtalk使用者登入 與 管理介面 (蔡慧喬)
+
+    使用者登入基本功能完成，
+
+    正在實作e-mail驗證使用者帳號
+
+    正在實作忘記密碼時處理程序
+
+
+7. IoT device使用ESP8266晶片連接IoTtalk
+
+    已完成布署ESP8266到紫外線殺菌燈，並成功連結上IoTtalk為之控制與使用。
+
+
+8. Cyber device - Smartphone加入其他手機上的sensor (林俊翰)
+
+    已開始嘗試家手機sensors加入cyber device: smartphone內
+
+    現行瀏覽器在傳輸一些sensor資訊時(例如GPS)，要求使用加密連線https，才能傳送，而https加密需要一個domain name，所以購買了一個，現在在瀏覽器上輸入 iottalk.tw 就可以連到MIRC311主機
+
+
+9. IoTtalk已支援https加密傳輸，可讓Chrome, Firefox, Safri瀏覽器進行傳輸GPS等個人資訊
