@@ -1,0 +1,31 @@
+1. MorSocket APP 開發進度 (陳立寬)
+跟cic 討論bug處理事宜
+正在實作增加MorSocket 的識別名稱 ex. living room…
+UI improve根據老師的意見修改中
+
+2. MAP 開發進度 (陳薪雅、徐大賢)
+設計 路徑規劃 操作UI
+設計 管理者UI
+設計 歷史紀錄UI
+
+3. Machine Learning + IoTtalk (劉淳佑)
+使用IoTtalk GUI將ML_Iris新增為ML_device
+解決用join同時傳送data，可讓IDF傳送歷史資料到ML_device，建立學習模型
+仍正實作device object自動bind正確的ML_device，不須由使用者手動binding
+仍正實作自動產生一個default的ML_device，讓使用者連線到ML_device不用設定也可以運作
+
+4. IoTtalk 2.0狀態 (顏泰翔、林俊頤)
+開始實作monitor mode
+修復bug：移除Join連線又新增Join連線，ESM還是會執行舊的Join連線
+
+5. IoTtalk使用者登入 與 管理介面 (蔡慧喬)
+完成 使用者管理介面
+已實作 csm 上傳 cyber device code, 但現在任何人都可以上傳，還沒有綁 user 
+正在實作csm 上傳 cyber device code, 限定登入後才能上傳
+
+6. Cyber device - Smartphone加入其他手機上的sensor (林俊翰)
+網頁版Smartphone DA新增Compass、Vibration，但code仍在整理中
+
+
+7. Zenbo機器人對話 (林哲宇)
+預計進行拍攝影片。
