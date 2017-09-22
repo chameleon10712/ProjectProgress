@@ -3,18 +3,14 @@ Time: 08:30
 Location: EC411
 Information gatherer: 林勻蔚
 
-Member
-
-Agenda
-
 楊明達
-  完成規劃Media Gateway的架構, 正在實作
-  目的是讓chrome瀏覽器不需要安裝plugin就可以存取IP Cam的影像與聲音，並能在同一個頁面操作remote control
-  預計這周末完成PoC
+  1. 完成規劃Media Gateway的架構, 正在實作
+  2. 目的是讓chrome瀏覽器不需要安裝plugin就可以存取IP Cam的影像與聲音，並能在同一個頁面操作remote control
+  3. 預計這周末完成PoC
 
 蕭中芸
-  (1) 準備IoTaaS slides
-  (2) 畫框QR code always on top，待解決memory issue
+  1. 準備IoTaaS slides
+  2. 畫框QR code always on top，待解決memory issue
 
 顏泰翔
 實作monitor功能
