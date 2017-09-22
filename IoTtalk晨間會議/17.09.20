@@ -1,0 +1,53 @@
+Date: 2017/9/20 (Wed.)
+Time: 08:30
+Location: EC411
+Information gatherer: 林勻蔚
+
+Member
+
+Agenda
+
+楊明達
+  完成規劃Media Gateway的架構, 正在實作
+  目的是讓chrome瀏覽器不需要安裝plugin就可以存取IP Cam的影像與聲音，並能在同一個頁面操作remote control
+  預計這周末完成PoC
+
+蕭中芸
+  (1) 準備IoTaaS slides
+  (2) 畫框QR code always on top，待解決memory issue
+
+顏泰翔
+實作monitor功能
+
+陳立寬
+  1.MorSocket ui update
+  2.畫框文件
+  3.語音辨識da
+
+林俊翰
+  1. Remote control update
+  2. compass還在做
+
+劉啟亦
+  1. 學習javascript
+  2. 設計DA介面
+
+王懷恩
+  1. 研究iottalk2
+
+徐大賢
+  1. map 歷史軌跡UI完成，toast功能修改
+
+陳薪雅
+  1.修改map 輸入格式的bug
+  2.討論新介面設計
+  3.做歷史紀錄功能
+
+蔡惠喬
+  1. 在 csm 上實作,上傳 VPython Cyber Device Code 功能
+
+廖俊凱
+  1. 修改感測器的bug 
+  2. 研究預測模型的寫法
+
+ 
