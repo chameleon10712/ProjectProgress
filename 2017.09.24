@@ -1,0 +1,64 @@
+1. MorSocket APP 開發進度 (陳立寬)
+完成增加MorSocket 的識別名稱(e.g., living room)
+未完成部分
+正在實作MorSocket setup page要增加設定擺放位置的UI(20%)
+正在實作IoTtalk上同步socket ODF alias與app同步。()
+跟cic 討論bug處理事宜
+
+2. MAP 開發進度 (陳薪雅、徐大賢)
+完成部分
+使用者與管理者介面
+歷史紀錄功能與介面接上
+產生路徑規劃介面
+狗當前位置追蹤(可多隻狗)
+User看攝影機及路障內容
+點攝影機跟路障位置居中
+路徑規劃避路障
+歷史紀錄功能與介面接上
+產生路徑規劃介面
+產生admin路障跟攝影機新增介面
+未完成部分(進度20%)
+歷史紀錄最近一小時與最近一天拉尾巴
+路徑規劃手動輸入目的地
+不同狗分顏色
+Admin路障跟攝影機修改介面
+路徑規劃功能對接
+admin路障跟攝影機功能對接
+
+3. Machine Learning + IoTtalk (劉淳佑)
+完成部分
+140.113.199.201已經部署上去了
+把DAN寫成一個class，可以重複呼叫，以便同時管理多個ML_device
+把ML_device寫成以thread的實作方式，可以產生有多個ML_device
+未完成部分
+設定資料的傳送接收 (80%) (已完成一些參數的傳送，再改一下就行)
+讓Project不會mount錯Device (0%) (要去尋找Device list的code再哪裡)
+一開始就建立一個基礎的模型提供使用 (50%) (還要讓save model的按鈕會送訊號給setting的頁面)
+
+4. IoTtalk 2.0狀態 (顏泰翔、林俊頤)
+monitor mode實作進度80%
+ESM實作 sample/variant, normalize, scale(0%)
+最新進度以佈署到140.113.199.198進行測試
+
+5. IoTtalk使用者登入 與 管理介面 (蔡慧喬)
+完成部分
+寫完了 upload file , 改做到 ccm 上面, 限定登入之後才能上傳, 限定檔名格式 : {username}_filename.py , 限定檔案格式 (沒有實作刪除檔案的功能，因為不確定老師需不需要。要做 delete file 很容易，只是現在的檔名也僅限 edu 格式，如果要支援任意檔名的話，要有一點配套 ex. user account validation , user email 驗證帳號 之類的 )
+未完成部分 
+ CCM , Flask Email Validation ：正在研究
+正在研究 v2 , 要把 upload file, user administration 的功能加到 v2 上面 （不過現在 v2 在我機器上( FreeBSD )安裝不起來，貌似是 websocket 有送出資料，但是 mqtt 接收不到 )
+完成度 :  5 % (?) ，基本上只要 server 裝完應該就可以很快完成了
+正要研究 esm 運作原理，預計之後實作 v2 esm 部份功能
+完成度:  5 % ，仍須多看 v2 code & trace document
+
+
+6. Cyber device - Smartphone加入其他手機上的sensor (林俊翰)
+已完成網頁版Smartphone DA新增Vibration
+正在查核Compass運作正確性(80%)
+
+
+7. Zenbo機器人對話 (林哲宇)
+根據老師意見拍攝影片
+
+8. NB-IoT - IoTtalk連接 (劉啟亦)
+已規劃NB-IoT Management DA UI ，將會跟老師報告
+
