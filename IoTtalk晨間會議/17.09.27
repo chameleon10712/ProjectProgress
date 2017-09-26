@@ -4,9 +4,11 @@ Location: EC411
 Information gatherer: 楊明達
 
 楊明達
-  1. 
-  2. 
-  3. 
+  1. 完成 Media Gateway 的 PoC 與實作
+  2. 讓chrome瀏覽器不需要安裝plugin就可以存取IP Cam的影像與聲音，並能在同一個頁面操作remote control
+  3. 新增了現場聲音, 使用方式與之前相同
+  4. 正在請林博試用, 若沒問題就更新到正式網頁
+  5. 新增畫框的 preset loation 於網頁中: "Frame"
 
 蕭中芸
   1. iotaas conference and presentation
