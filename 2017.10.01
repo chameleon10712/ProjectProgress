@@ -1,0 +1,65 @@
+1. MorSocket APP 開發進度 (陳立寬)
+	正在實作MorSocket setup page要增加設定擺放位置的UI(30%)
+	正在實作IoTtalk上同步socket ODF alias與app同步。
+
+2. MAP 開發進度 (陳薪雅、徐大賢)
+	本週完成的進度：
+	1.路徑規劃，手動輸入目的地時可以自動建議可能選項
+	2.不同隻狗可以自動給不同顏色
+	3.admin, user介面完成
+	4.部分bug修正
+
+	已完成部分：
+	1.狗當前位置追蹤(可多隻狗)
+	2.User看攝影機及路障內容
+	3.點攝影機跟路障位置居中
+	4.路徑規劃避路障
+	5.歷史紀錄功能與介面接上
+	6.產生路徑規劃介面
+	7.產生admin路障跟攝影機新增介面
+
+	未完成部分：(40%)
+	1.歷史紀錄最近一小時與最近一天拉尾巴
+	2.路徑規劃功能對接
+	3.admin路障跟攝影機功能對接
+
+3. Machine Learning + IoTtalk (劉淳佑)
+	已完成:
+	一開始就建立一個基礎的模型提供使用
+	設定資料的傳送接收
+
+	未完成:
+	在分頁上增加關閉分頁按紐(因為若device還沒有重新註冊完成就關閉分頁會產生問題)
+	解決mount完之後，device改變idf、odf的alias後，頁面上的不會重新刷新的問題
+	historical data增加上傳資料的介面
+	更改gui的配置
+	將adv.按扭改名為extra setup
+	default device name改成 ##.ML_Device
+	讓 Project 不會 mount 錯 Device (0%) (要去尋找 Device list 的 code 再哪裡) (目前只有一個device不會遇到這個問題)
+
+4. IoTtalk 2.0狀態 (顏泰翔、林俊頤、王懷恩)
+	Monitor mode進行測試
+	製作unit test程式，測試CSM之功能正確性
+        ESM實作 sample/variant, normalize, scale (30%)
+
+5. IoTtalk使用者登入 與 管理介面 (蔡慧喬)
+	1. 實作 upload file 前輸入特定密碼之後，還是覺得改做 ‘驗證是不是機器人( Recaptcha )’ 比較直覺。進度 : 20 %
+	2. 研究 upload file 的前端如何美化。進度 :  70 % (?)
+	3. study v1 document, v2  ccm, core, PEP8 
+	進度 :  
+	v1 document  : 70 %  ( 主要是在看 esm 裡面的 procedure 運作機制 )
+	v2 ccm : 70 %
+	v2 core : 10 %
+
+6. Cyber device - Smartphone加入其他手機上的sensor (林俊翰)
+	已完成網頁版Smartphone DA新增Vibration、Compass
+	準備期中考
+
+7. Zenbo機器人對話 (林哲宇)
+	影片拍攝完畢，待修改中。
+
+8. NB-IoT - IoTtalk連接 (劉啟亦)
+	已規劃NB-IoT Management DA UI，待修改中。
+
+
+	
