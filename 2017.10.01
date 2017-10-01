@@ -61,5 +61,8 @@
 8. NB-IoT - IoTtalk連接 (劉啟亦)
 	已規劃NB-IoT Management DA UI，待修改中。
 
-
+9. Ausu - IoTtalk連接 (劉啟亦)
+	測試Asus Gateway與嘗試控制門鎖
+	
+10. vPython 物理程式放進IoTtalk首頁 (陳立寬、劉啟亦、王懷恩)
 	
