@@ -1,0 +1,58 @@
+1. MAP 開發進度 (陳薪雅、徐大賢)
+本週完成的進度：
+1.路徑規劃新增手動輸入完成
+2.路徑規劃功能修正
+3.修正地圖有時候無法正常載入的情形
+4.修正“在路徑規劃下，一直戳螢幕，就一直會有氣球
+5.修正“按下立即出發後，上方藍色框框應該要自動消失
+6.修正“在點過路障或攝影機後，若地圖畫面拉到別的地方後，如果用兩指放大，或是按+放大，地圖就會彈回原本設定center的畫面
+7.因應https，修改route的url，前面加上 /secure
+
+已完成部分：
+1.狗當前位置追蹤(可多隻狗)
+2.User看攝影機及路障內容
+3.點攝影機跟路障位置居中
+4.路徑規劃避路障
+5.歷史紀錄功能與介面接上
+6.產生路徑規劃介面
+7.產生admin路障跟攝影機新增介面
+8.路徑規劃，手動輸入目的地時可以自動建議可能選項
+9.不同隻狗可以自動給不同顏色
+10.admin, user介面完成
+11.歷史紀錄最近一小時與最近一天拉尾巴
+12.admin路障跟攝影機新增功能對接
+ 
+未完成部分：
+1.admin路障跟攝影機修改刪除功能對接
+
+2. Ausu - IoTtalk連接 (劉啟亦)
+Asus Jim表示Gateway中少放了認證的key導致無法更新韌體，已寄回維修。
+預計取回後就可讓門鎖連上Asus的Gateway
+
+3. vPython 物理程式放進IoTtalk首頁 (陳立寬、劉啟亦、王懷恩)
+    已於140.113.199.199啟用，可以進行測試
+
+4. 語音對話網頁 (陳立寬、林俊翰)
+   正在整合以上語音API成為網頁DA，連上IoTtalk (90%)
+
+5. MorSocket開發進度 (陳立寬)
+    1.正在等待CIC修正玩bug的硬體
+2.因NB-IoT要使用一個DA控制多個獨立的device，將Python DAN 改寫程物件導向版本
+3.畫框手機遊戲控制加上end button，以便讓使用者離開遊戲
+
+6. IoTtalk使用者登入 與 管理介面 (蔡慧喬)
+本週進度 :
+實做 v2 upload page (進度 : 80% ，缺跟老師討論 GUI 界面)
+實做 v2 list all devices page (80%)
+
+實做 v2  user management (25%)
+前端界面暫時沿用 v1-edu  user management GUI,  但後端仍要研究一下mqtt 機制
+預計實做的 operation :
+add user  (admin only)
+delete user  (admin only)
+user permissions :   general user /  admin user
+
+7. NB-IoT - IoTtalk連接 (曾浤鈞、劉啟亦)
+    1.浤鈞已看完中華電信智慧物聯網平台的API，但中華電信其實尚未制定NB-IoT運作規則
+    2. 追查工研院NB-IoT使用規則
+    
