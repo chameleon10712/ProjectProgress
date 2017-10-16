@@ -36,9 +36,10 @@ Asus Jim表示Gateway中少放了認證的key導致無法更新韌體，已寄�
    正在整合以上語音API成為網頁DA，連上IoTtalk (90%)
 
 5. MorSocket開發進度 (陳立寬)
-    1.正在等待CIC修正玩bug的硬體
-2.因NB-IoT要使用一個DA控制多個獨立的device，將Python DAN 改寫程物件導向版本
-3.畫框手機遊戲控制加上end button，以便讓使用者離開遊戲
+   1.正在等待CIC修正玩bug的硬體
+   2.因NB-IoT要使用一個DA控制多個獨立的device，將Python DAN 改寫程物件導向版本
+   3.畫框手機遊戲控制加上end button，以便讓使用者離開遊戲
+   4.voice control da 修bug，並實作 script queue
 
 6. IoTtalk使用者登入 與 管理介面 (蔡慧喬)
 本週進度 :
