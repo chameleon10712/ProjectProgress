@@ -15,9 +15,10 @@ Information gatherer: 劉啟亦
   3. 
 
 陳立寬
-  1. 
-  2. 
-  3. 
+  1.正在等待CIC修正玩bug的硬體
+  2.因NB-IoT要使用一個DA控制多個獨立的device，將Python DAN 改寫程物件導向版本
+  3.畫框手機遊戲控制加上end button，以便讓使用者離開遊戲
+  4.voice control da 修bug，並實作 script queue
 
 林俊翰
   1. 寫網安程式作業
