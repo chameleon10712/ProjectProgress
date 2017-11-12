@@ -1,0 +1,71 @@
+
+1. MAP 開發進度 (陳薪雅)
+	本週完成的進度：
+	1.定期reload database
+
+	已完成部分：
+	1.狗當前位置追蹤(可多隻狗)
+	2.User看攝影機及路障內容
+	3.點攝影機跟路障位置居中
+	4.路徑規劃避路障
+	5.歷史紀錄功能與介面接上
+	6.產生路徑規劃介面
+	7.產生admin路障跟攝影機新增介面
+	8.路徑規劃，手動輸入目的地時可以自動建議可能選項
+	9.不同隻狗可以自動給不同顏色
+	10.admin, user介面完成
+	11.歷史紀錄最近一小時與最近一天拉尾巴
+	12.admin路障跟攝影機新增功能對接
+	13.admin路障跟攝影機修改刪除功能對接
+	14.歷史紀錄按鈕設計修正
+	15.修正地圖無GPS時無法正常載入的情形
+	16.admin點擊路障跟攝影機載入原先內容
+	17.admin點擊路障跟攝影機新增取消按鈕
+
+	未完成部分：
+	1.人或狗經過攝影機周遭，自動打開該攝影機畫面
+	2.同時讀入人跟狗的資料
+
+
+2. Ausu - IoTtalk連接 (劉啟亦)
+	本周完成進度：
+	1.能用python程式(透過api), 來控制華碩智慧門鎖開關的動作
+
+	尚未完成:
+	1. 還沒了解如何使用 華碩的mqtt api , 來去監控裝置的狀態(像是門鎖是 "開" or "關" 的狀態)
+
+
+3. NB-IoT - IoTtalk連接 (曾浤鈞、劉啟亦)
+	a.完成利用device和service的查詢結果，完成iottalk的裝置註冊。
+	b.將經由MQTT傳遞給DA的資料，傳送給指定iottalk的dm和df
+	c.完成iottalk註冊之後，df別名的自動更改。
+	d.完成device和service的定期查詢以及重新註冊。
+	e.完成MAP的ODF，利用GPS的資訊在地圖上顯示裝置的位置變更。
+
+
+4. IoTtalk v1的 ODF自動對應IDF微度(王懷恩)
+	研究如何修改成自動對應之功能(100%) - 待測試
+
+
+5. Machine learding 
+	已完成:
+	可供使用者自行上傳algorithm code的模組介面
+	將save、exit按扭改成Retrain model、close window
+	將Result改成Ensenble
+	Retrain章節增加with/without historical data
+	Histrical data改名成training data
+	Extra data set般到Result下面
+
+	未完成:
+	ML讀取到feature設定後依照設定執行feature extraction
+	增加Validation演算法
+	舊的資料存成另一個檔
+
+6. 蕭中芸
+	1. 已完成項目：
+	    （1）中研院出國報告和出國經費核銷。
+	    （2）初步和老師及應藝所討論課程規劃。
+	    （3）初步給老師看新作品視覺demo。
+	2. 尚未完成項目：
+	    （1）規劃IoT科技藝術課程。
+	    （2）細修新作品程式，定義odf。
