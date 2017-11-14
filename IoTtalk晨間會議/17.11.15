@@ -4,8 +4,9 @@ Location: EC411
 Information gatherer: 林俊翰
 
 楊明達
-  1. 完成將orientation傳送給iottalk (透過支援webvr的browser, 使用API取得的 HMD orientation)
-  2. 研究如何讓streaming server只傳送viewport區域內的360影片
+  1. 研究如何讓streaming server只傳送viewport區域內的360影片
+  2. 已投稿的論文"Low-Cost 4D Experience Theater Using Home Appliances"目前status是"in peer review"
+  3. 接近年底花比較多時間處理公司的事情忙
 
 蕭中芸
   1. 
