@@ -45,7 +45,7 @@
 	d.Config File 上傳網頁設計完成，在附件的檔案。
 
 
-4. Device/User management (蔡慧喬)
+4. Device/User management (蔡惠喬)
 	本週進度：
 	1. 已完成  :   
           (1)  iottalk-edu -  cyber device + remote control 頁面改以程式自動抓取所有 cyber device 並自動產生 cyber device with remote control 頁面
@@ -76,3 +76,15 @@
 	1. 準備WoT paper
 	2. 網路安全期中考 (11/21)
 	3. MorSocket位置設定實作
+
+8.顏泰翔
+	已完成:
+	協助浤鈞修改nb-iot遇到的v1 bug
+	實作v2 python dai
+	
+	未完成:
+	修改ESM/CSM命名方式(40%)
+	
+	待完成:
+	統一 DAN-ESM 傳送data型別
+	device bind後重新上線不用重新bind
