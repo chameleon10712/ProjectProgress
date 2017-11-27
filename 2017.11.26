@@ -73,7 +73,10 @@
         5. 更新DF list。
 
 6. 陳立寬
-	MorSocket-IoTtalk軟體已經完成開發，但MorSocket發生硬體問題，正與CIC聯繫中。
+	1. MorSocket-IoTtalk軟體已經完成開發，但MorSocket發生硬體問題，正與CIC聯繫中。
+	2. MorSocket-Server 改成更物件的寫法
+	2. 影像處理作業
+	3. 網路安全作業
 
 7. 顏泰翔
 	已完成: 
