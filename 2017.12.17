@@ -1,0 +1,94 @@
+1. MAP 開發進度 (陳薪雅)
+	本週完成的進度：
+	1.同時讀入人跟狗的資料
+	2.人類類別名稱詢問(people/human)，決定為people
+	3.建立功能查核清單
+	4.寫課堂作業
+
+	已完成部分：
+	1.狗當前位置追蹤(可多隻狗)
+	2.User看攝影機及路障內容
+	3.點攝影機跟路障位置居中
+	4.路徑規劃避路障
+	5.歷史紀錄功能與介面接上
+	6.產生路徑規劃介面
+	7.產生admin路障跟攝影機新增介面
+	8.路徑規劃，手動輸入目的地時可以自動建議可能選項
+	9.不同隻狗可以自動給不同顏色
+	10.admin, user介面完成
+	11.歷史紀錄最近一小時與最近一天拉尾巴
+	12.admin路障跟攝影機新增功能對接
+	13.admin路障跟攝影機修改刪除功能對接
+	14.歷史紀錄按鈕設計修正
+	15.修正地圖無GPS時無法正常載入的情形
+	16.admin點擊路障跟攝影機載入原先內容
+	17.admin點擊路障跟攝影機新增取消按鈕
+	18.人或狗經過攝影機周遭，自動打開該攝影機畫面
+	19.Map起點位置改成可更動式
+	20.路徑規劃修正
+	21.同時讀入人跟狗的資料
+
+	未完成部分：(10%)
+	1.路徑規劃完整測試
+	2.人狗的介面格式及時間修正
+	3.寫Map document
+
+
+2. Ausu - IoTtalk連接 (劉啟亦)
+	已完成項目:
+	1. PP HW4
+	2. NB-IoT 網頁設計 v6 v7 (這部分有跟曾學長討論數次)
+
+	尚未完成:
+	1. NP HW4 
+	2. Asus DM 自動產生對應Device的DF
+	3. Asus API Handler的timer 檢查
+	4. Asus Mqtt Handler
+	5. 開發 地震開門應用  G-sensor + Asus門鎖
+
+3. NB-IoT - IoTtalk連接 (曾浤鈞、劉啟亦)
+	1.IDA和DA跟中華電信NHR的application server的資料對接並傳送到IoTtalk Server：
+	   思考修正DEVTYPE和CID及CID和Device Feature alias的對應方法， 
+	   預計將使用資料庫來建立table，並藉由查詢table來完成對應，
+	   對於未來新增CID，會先在IoTtalk UI上的Device Feature alias顯示CID，
+	   由使用者自己在IoTtalk UI上修改，來決定該CID對應的Device Feature alias，
+	   一旦偵測到使用者有修改alias則回存到資料庫的table。
+	   而新增的CID的資料類型和資料維度，會在收到第一筆該CID的資料時，
+	   進行資料偵測和回存到資料庫的table。
+	2.NB-IoTtalk Device Management網頁設計，
+	   跟啟亦學弟討論完，設計圖已經在繪製，
+	   還有一部分沒完成，預計完成後先跟林博討論。
+	3.協助中華電信NHR在交大佈署實機後的資料可通性和正確性測試。
+	4.協助中華電信完成計畫期中查核報告。
+
+4. IoTtalk Edu. 介面 (蔡惠喬)
+	1. 將線上編輯器，真的接入所放的VPython中
+	2. 從林元偉那邊的VPython找出一個有趣的，根據他們裡面修改的部分標示程式碼段落
+	3. 寫放置VPython流程文件，讓其他人能夠依序放入其他VPython
+
+5. 蕭中芸
+	已完成: 
+	1. 全力準備arte laguna prize投件，已在國網中心完成部分拍攝。需趕在12/18前完成並投件。 
+
+	尚未完成: 
+	1. 新作品processing程式視覺修正（持續進行中，12/18前完成）。
+	2. 新作品拍攝、實際互動串接（持續進行中）。 
+	3. IoT科技藝術課程規劃（持續進行中，12月底前完成）。
+        4. 更新DF list（持續進行中，12月底前完成）。
+
+6. 陳立寬
+	1.宋博士將MorSocket拿回維修中
+	2.準備考試
+	3.準備遠傳比賽 (12/19)
+
+7. 顏泰翔
+	已完成：
+	Arduino Yun DA for IoTtalk v2 開發完成 並 通過長時運行測試 
+
+	尚未完成：
+	處理 ESM/CCM 之間會斷線重聯的問題
+	Simulator跟CSM連線斷斷續續，導致GUI不斷更新畫面而閃爍
+	Simulator長時間使用會發生socket無法建立而錯誤(too many open files)
+
+8. 王懷恩
+	Smartphone DA 連接 IoTtalk v2 (100%) (已通過簡易測試，接下來會以開發應用的方式來測試)
