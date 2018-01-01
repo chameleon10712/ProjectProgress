@@ -91,18 +91,18 @@
         3. 更新DF list。
         4. 畫框flow chart。
 
-6. 陳立寬
+5. 陳立寬
 	1. 修好painting有時候qrcode scan 錯誤的問題
 	2. 與宋博討論MorSocket bug
 
-7. 顏泰翔
+6. 顏泰翔
 	尚未完成：
 	處理 ESM/CCM 之間會斷線重聯的問題
 	Simulator跟CSM連線斷斷續續，導致GUI不斷更新畫面而閃爍
 	Simulator長時間使用會發生socket無法建立而錯誤(too many open files)
 
-8. 王懷恩、劉啟亦
+7. 王懷恩、劉啟亦
 	錄製VPython物理動畫影片 (0%)
 	
-9. 專題生：
+8. 專題生：
 	嘗試將每個VPython都先接好，實現隨時可運行之目的(5%)
