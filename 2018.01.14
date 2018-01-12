@@ -23,7 +23,12 @@
 
 
 3. NB-IoT - IoTtalk連接 (曾浤鈞、劉啟亦)
-
+    1.IDA和DA跟中華電信NHR的application server的資料對接並傳送到IoTtalk Server：
+       針對不同的NB-IoT裝置類型(devicetype)，建立不同的device model。(已經完成，正在做長時運作的測試)
+    2.完成將NB-IoT的停車紀錄資料寫入檔案，並可以依據指定的ID將歷史資料上傳到IoTtalk Server的DA。
+    3.發現並解決在iottalk web gui上，如果join點的function不回傳值時，
+      join點按右鍵後table跟chart顯示異常的問題。
+    4.中華電信的NB-IoTtalk Device Management的網頁設計定稿。
 
 4. 陳立寬
 
