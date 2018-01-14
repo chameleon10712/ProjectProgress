@@ -36,9 +36,18 @@
 
 
 5. 顏泰翔
-
+    1.修正ESM/CCM之間會斷線重聯的異常問題 (測試中)
+    2.修正sqlchemy在建立sqlite database時，primary欄位的autoincrement未正常運作
+      *因sqlite的autoincrement與其他主流db的用法較為不同，
+       所以sqlchemy在使用sqlite的autoincrement時，需另給參數 'sqlite_autoincrement': True
+    3.修正esm在某些情形的使用下會對df function執行二次
+      *未預期使用者會使用global變數做為每次執行function的參考，
+       導至在處理function時以try-catch的方式執行了二次。
+       修正為只執行一次後再針對該回傳值做處理
+    4.當gui的mqtt驗証錯誤時會重新導回登入頁
+    5.gui新增當Mqtt斷線時的提示訊息
+    
 
 6. 王懷恩、劉啟亦
-
 
 7. 專題生：
