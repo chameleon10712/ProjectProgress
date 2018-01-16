@@ -87,6 +87,9 @@
        修正為只執行一次後再針對該回傳值做處理
     4.當gui的mqtt驗証錯誤時會重新導回登入頁
     5.gui新增當Mqtt斷線時的提示訊息
+    6.修改mosquitto的socket上限
+      * 'src/net.c' Line 142: 
+      	"if(listen(sock, 100) == -1){ " -> "if(listen(sock, <bignumber>) == -1){ "
     
 
 7. 王懷恩、劉啟亦
