@@ -55,7 +55,7 @@
 7. 王懷恩、劉啟亦
 
 8. 專題生：
-
-9. 廖俊凱
-
+    a. 三人組已經成功從Google Home接收到使用者說的語音命令/內容，下一步專題生們會將Google Home接上IoTtalk，
+        如此就可使用市售的Goole Home語音助理控制311內的設備。
+    b. 彭宣儒目前會與俊凱一起把價創計畫要用的sensors接上Arduino Yun讀取數值
     
