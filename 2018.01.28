@@ -48,6 +48,12 @@
   4. 完成控制影片播放程式。
 
 6. 顏泰翔
+  1. 新增DB table: DeviceFeatureCategory
+  2. 新增ccm api: create_device_feature_category, get_device_feature_category_list
+  3. 修改gui management page: 支援category相關功能
+  4. 修正gui monitor顯示不正常問題
+  5. 將gui monitor的資料頂端列固定位置，不會隨獲得新的值之後移動
+  6. 修改gui的css，使其table形式統一
 
 7. 王懷恩、劉啟亦
 
