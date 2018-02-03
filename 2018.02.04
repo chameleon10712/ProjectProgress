@@ -22,6 +22,9 @@
   未完成部分：
   
 2. Ausu - IoTtalk連接 (劉啟亦)
+  1. 完成asus-iottalk 架構圖
+  2. 增加檢查裝置上下線的功能, 正研究thread 溝通的套件(zope interface)
+  3. 準備group meeting 的paper
 
 3. NB-IoT - IoTtalk連接 (曾浤鈞)
   1.  撰寫NB-IoT - IoTtalk的IDA跟DA(90%)，因為有做IPC(行程間的通訊)，所以還需要測試一段時間。
